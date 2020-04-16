@@ -12,6 +12,7 @@ module.exports = {
 		accessDenied: 'page1',
 	},
 	generate: {
+		autoBuildNpm: true,
 		subpackages: {
 			package1: ['page2'],
 			package2: ['page3', 'page4'],
